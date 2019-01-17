@@ -30,6 +30,7 @@ describe "Artist" do
         expect(hello.artist).to eq(adele)
       end
     end
+    
 
     describe "#add_song_by_name" do
       it "takes in an argument of a song name, creates a new song with it and associates the song and artist" do
